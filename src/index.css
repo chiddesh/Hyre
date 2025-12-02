@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
+
+@theme {
+  --font-logo: "Asimovian", sans-serif;
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-skills: "Syne", sans-serif;
+}
+
+@layer base {
+  img {
+    display: initial;
+  }
+}
